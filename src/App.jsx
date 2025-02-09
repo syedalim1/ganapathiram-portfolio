@@ -10,13 +10,14 @@ import ConferencePresentations from "./components/ConferencePresentations";
 import AreaOfInterest from "./components/AreaOfInterest";
 import PersonalProfile from "./components/PersonalProfile";
 import RolesAndResponsibilities from "./components/RolesAndResponsibilities";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Home />} />
         <Route path="/education" element={<Education />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/awards" element={<Awards />} />

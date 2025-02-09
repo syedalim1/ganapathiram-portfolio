@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 
 const educationData = [
   {
-    degree: "Ph.D (Pursuing)",
+    degree: "Ph.D (Pursuing) Artificial Intelligence & Robotics ",
+
     year: "-",
     institute: "Rathinam College of Arts and Science",
     board: "-",
